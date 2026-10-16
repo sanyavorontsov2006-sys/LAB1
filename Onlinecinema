@@ -368,7 +368,7 @@ def main() -> None:
         print("Фильмы:", [movie.title for movie in loaded.catalog.movies.values()])
         print("Результат поиска:", [movie.title for movie in loaded.catalog.search("интер")])
 
-        # Демонстрация обработки собственного исключения.
+  
         try:
             loaded.catalog.get(999)
         except NotFoundError as error:
