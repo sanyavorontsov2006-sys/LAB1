@@ -168,7 +168,6 @@ class Favorite:
 
 
 class MovieCatalog:
-    """CRUD-операции и поиск фильмов."""
 
     def __init__(self) -> None:
         self.movies: dict[int, Movie] = {}
@@ -198,7 +197,6 @@ class MovieCatalog:
 
 
 class OnlineCinema:
-    """Главный класс приложения."""
 
     def __init__(self) -> None:
         self.users: dict[int, User] = {}
